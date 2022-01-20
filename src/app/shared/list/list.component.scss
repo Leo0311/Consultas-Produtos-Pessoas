@@ -1,0 +1,15 @@
+table {
+  display: block;
+  text-align: center;
+  // margin-left: 500px;
+  background-color  : rgb(170, 170, 170);
+  border: solid 1px black;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.test {
+  display: inline-block;
+}
+
