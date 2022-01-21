@@ -1,0 +1,10 @@
+<h3>
+  <div>
+    <mat-icon >person_add</mat-icon>
+</div> Lista de Pessoas </h3>
+
+<shared-list
+  [headers]="headers"
+  (deleteEntity)="deletePerson($event)"
+  (searchEntity)="searchPerson($event)"
+></shared-list>

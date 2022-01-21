@@ -1,0 +1,9 @@
+<h1 ><mat-icon>build</mat-icon> Em construção.....Apenas consulta</h1>
+
+<h3>Listar produtos</h3>
+<shared-list
+[headers]="headers"
+(deleteEntity)="deleteProduct($event)"
+(searchEntity)="searchProduct($event)"
+(limitEntity)="limitProduct($event)"
+></shared-list>
